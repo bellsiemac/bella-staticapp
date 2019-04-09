@@ -4,12 +4,23 @@
 <article class="container">
   <div class="row">
     <div class="col-sm-4 left-rail">
-      {% block info %}{% endblock %}
+    {% block info %}
+      <img src="img/pirate.jpg" alt="pirate character" class="img-fluid">
+      <p class="byline">By Crit McGillicutty<br>
+      <span>Island Breeze Tribune</span></p>
+    {% endblock %}
     </div>
     <div class="col-sm-8">
-      {% block story %}{% endblock %}
+      {% block story %}
+      <h3>
+        Detail layout, no override
+      </h3>
+      <p> right column </p>
+      {% endblock %}
 
     </div>
   </div>
 </article>
 {% endblock %}
+
+<!-- fills in the little pieces that we talked about in base, filling in holes, set in blocks on top of base -->
