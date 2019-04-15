@@ -6,7 +6,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-sm-8 offset-sm-2">
     <h1>The Life of a Pirate</h1>
     <p class="author">By {% for author in authors %}
       <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>{% if not loop.last %}{% if loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endif %} {% endfor %}
@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col-sm-8 offset-sm-2">
       <p>
       Some of the most famous pirates in history lived during the Golden Age of Piracy, and their stories have served as the basis of pirate myth and lore. Caribbean piracy is famous today as a colorful and adventurous episode in world history, packed full of wild characters and thrilling adventure.
       It was a time when free-spirited and courageous people could still disappear in the world, simply by boarding a ship and pointing it toward the horizon. Especially in contrast to our fast-paced lives of today, the pirate life seems awfully appealing.      
